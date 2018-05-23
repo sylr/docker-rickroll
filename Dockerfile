@@ -1,4 +1,4 @@
-FROM richarvey/nginx-php-fpm:1.3.8
+FROM richarvey/nginx-php-fpm:1.5.0
 
 ADD src/ /var/www/html/
 ADD conf/nginx-site.conf /etc/nginx/sites-available/default.conf
