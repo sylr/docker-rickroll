@@ -1,6 +1,6 @@
 
 ---
-name: Deployment
+name: Build
 on:
   push:
     branches: [master]
